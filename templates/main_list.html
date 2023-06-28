@@ -1,0 +1,10 @@
+{% extends 'pattern.html' %}
+
+{% block content %}
+<p>Привет, {{ name }} </p>
+<form action="{{ url_for('reg_out') }}">
+    <button class="button_prod" style="margin-top: 40px;">Выйти</button>
+</form>
+{% endblock %}
+
+

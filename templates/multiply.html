@@ -1,0 +1,8 @@
+{% extends 'pattern.html' %}
+
+{% block content %}
+<form action="/multiply" method="post">
+    <input type="text" name="number" placeholder="Число">
+    <input type="submit" value="Отправить">
+</form>
+{% endblock %}

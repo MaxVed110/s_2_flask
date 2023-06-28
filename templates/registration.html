@@ -1,0 +1,9 @@
+{% extends 'pattern.html' %}
+
+{% block content %}
+<form action="/registration" method="post">
+    <input type="text" name="name" placeholder="Введите имя"><br>
+    <input type="email" name="email" placeholder="Введите адрес почты">
+    <input type="submit" value="Отправить">
+</form>
+{% endblock %}
